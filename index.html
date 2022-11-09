@@ -1,30 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    
     <title>Galeria Imagenes</title>
-</head>
-<body>
+  </head>
+  <body>
+    
     <div class="ful-img" id="fulImgBox">
-        <img src="assets/1.jpeg" id="ful img" alt="">
-        <span onclick="closeImg()">X</span>
+      <img src="assets/1.jpeg" id="fulImg" alt="" />
+      <span onclick="closeImg()">X</span>
     </div>
 
     <h1><span>GALERIA DE IMAGENES</span></h1>
 
     <div class="img-gallery">
-        <img class="imagen" src="assets/1.jpeg" alt="">
-        <img class="imagen" src="assets/2.jpg" alt="">
-        <img class="imagen" src="assets/3.jpg" alt="">
-        <img class="imagen" src="assets/4.jpg" alt="">
-        <img class="imagen" src="assets/5.jpg" alt="">
-        <img class="imagen" src="assets/6.jpg" alt="">
-        <img class="imagen" src="assets/7.jpeg" alt="">
-        <img class="imagen" src="assets/8.jpg" alt="">
+      <!-- a cada imagen la agregamos una funcion para que al darle click puedan abrirse -->
+      <img  src="assets/1.jpeg" onclick="openFulImg(this.src)" alt="" />
+      <img  src="assets/2.jpg"  onclick="openFulImg(this.src)" alt="" />
+      <img  src="assets/3.jpg"  onclick="openFulImg(this.src)" alt="" />
+      <img  src="assets/4.jpg"  onclick="openFulImg(this.src)" alt="" />
+      <img  src="assets/5.jpg"  onclick="openFulImg(this.src)" alt="" />
+      <img  src="assets/6.jpg"  onclick="openFulImg(this.src)" alt="" />
+      <img  src="assets/7.jpeg" onclick="openFulImg(this.src)" alt="" />
+      <img  src="assets/8.jpg"  onclick="openFulImg(this.src)" alt="" />
     </div>
-</body>
-<script src="codigo.js"></script>
+    <script src="codigo.js"></script>
+  </body>
+  
 </html>

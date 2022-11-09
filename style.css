@@ -53,9 +53,10 @@ h1 span {
   position: fixed;
   top: 0;
   left: 0;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
+  z-index: 99;/*me saca el efecto de las dos imagenes al mismo tiempo*/
 }
 .ful-img span{
   position: absolute;
