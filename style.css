@@ -11,7 +11,7 @@ h1 {
   margin: 50px auto;
 }
 body {
-  background-color: aliceblue;
+  background-color: rgb(226, 163, 68);
 }
 h1::before {
   content: "";
